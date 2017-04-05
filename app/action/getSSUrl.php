@@ -6,5 +6,8 @@
  * Time: 23:24
  */
 
-$user_name = $_Get['user_name'];
-echo $user_name. "n";
+$user_name = $_REQUEST["user_name"];
+if (is_array($user_name)) {
+    print_r($user_name);
+}
+echo $user_name. "\n";
