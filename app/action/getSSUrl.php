@@ -6,4 +6,5 @@
  * Time: 23:24
  */
 
-echo 'HelloWorld'. "\n";
+$user_name = $_Get['user_name'];
+echo $user_name. "n";
